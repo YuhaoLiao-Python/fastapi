@@ -59,8 +59,7 @@ def get(message_request: MessageRequest):
     }
   }
 '''
-    flex = json.load(jsonTemp)
-    
+    flex = json.loads(jsonTemp)
     flex['body']['contents'][0]['text'] = f'匯率轉換 (新台幣 -> {convert_currency})'
     flex['body']['contents'][1]['text'] = f'新臺幣 {twd}'
     flex['body']['contents'][3]['text'] = f'可換得{convert_currency} {result}'
