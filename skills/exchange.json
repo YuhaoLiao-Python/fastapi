@@ -1,0 +1,42 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "匯率轉換 (新台幣 -> 美金)",
+          "weight": "bold",
+          "color": "#1DB446",
+          "size": "sm"
+        },
+        {
+          "type": "text",
+          "text": "新臺幣 1000",
+          "weight": "bold",
+          "size": "xl",
+          "margin": "md",
+          "wrap": true
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "可換得美金 35.3",
+          "weight": "bold",
+          "size": "xl",
+          "margin": "md",
+          "wrap": true
+        }
+      ]
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }
