@@ -104,7 +104,7 @@ def get(message_request: MessageRequest):
     maxT = list(filter(lambda c: c['elementName'] == 'MaxT', elements))[0]
 
     # 美化回傳字串
-    flex = json.loads('weather.json')
+    flex = json.loads(weather)
      
     for i in range(3): 
         item = json.loads(weatheritem)
